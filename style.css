@@ -1,0 +1,278 @@
+/* Importa a fonte Bodoni Moda e Dancing Script do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+
+body {
+
+    background: linear-gradient(#000000, #2e004f, #800080); /* Cor de fundo da página */
+
+    display: flex; /* Usa Flexbox para layout */
+
+    flex-direction: column; /* Alinha os itens na vertical */
+
+    align-items: center; /* Centraliza os itens horizontalmente */
+
+    justify-content: flex-start; /* Alinha itens ao início */
+
+    min-height: 100vh; /* Preenche a altura total da viewport */
+
+    margin: 0; /* Remove a margem padrão */
+
+    padding: 0; /* Remove o padding padrão */
+
+    box-sizing: border-box;  
+  }
+  
+
+  label {
+color: #FFFFFF
+  }
+
+/* Estiliza os títulos h1 */
+h1 {
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 1rem;
+    font-size: 5rem; /* Tamanho da fonte */
+    color: #800080; /* Cor do texto */
+    letter-spacing: 0.4rem; /* Espaçamento entre letras */
+}
+
+/* Estiliza as seções da página */
+section {
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    margin-bottom: 3rem; /* Espaçamento abaixo de cada seção */
+    width: 100%; /* Ocupa toda a largura disponível */
+}
+
+/* Estiliza os inputs dentro das seções */
+input {
+    border-style: ridge;
+    border-width: 5px;
+    border-color: #800080;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8), /* Sombra leve */
+                0 1px 3px rgba(0, 0, 0, 0.8);
+    font-family: 'Bodoni Moda', sans-serif;
+    color: #000000;
+    width: 30rem; /* Largura dos inputs */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 0.2rem; /* Borda arredondada */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
+    font-size: 1rem; /* Tamanho da fonte */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+/* Estiliza os botões dentro das seções */
+button {
+    border-style: ridge;
+    border-width: 5px;
+    border-color: #800080; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8), /* Sombra leve */
+                0 1px 3px rgba(0, 0, 0, 0.8);
+    font-family: 'Bodoni Moda', sans-serif;
+    border-radius: 0.2rem; /* Borda arredondada */
+    background-color: #FFFFFF; /* Cor de fundo do botão */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    text-align: center;
+}
+
+/* Adiciona efeito hover ao botão de pesquisa */
+button:hover {
+    background-color: #4B0082; /* Muda a cor de fundo ao passar o mouse */
+    border-color: #D3B1F8;
+}
+
+/* Estiliza a caixa de resultados da pesquisa */
+.resultados-pesquisa {
+    width: 30rem; /* Largura máxima da caixa de resultados */
+    height: 30vh; /* Altura máxima da caixa de resultados */
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 0.2rem; /* Borda arredondada */
+   
+}
+
+/* Estiliza cada item de resultado */
+.item-resultado {
+    background: #FFFFFF; /* Cor de fundo dos itens */
+    border-radius: 0.6rem; /* Borda arredondada */
+    padding: 1rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+/* Estiliza os títulos dentro dos itens de resultado */
+.item-resultado h2 {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #4B0082; /* Cor do texto */
+    font-family: 'Bodoni Moda', sans-serif;
+}
+
+/* Estiliza os links dentro dos itens de resultado */
+.item-resultado a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #30475E; /* Cor do texto dos links */
+}
+
+/* Estiliza os links quando são passados o mouse sobre */
+.item-resultado a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estiliza a descrição meta dentro dos itens de resultado */
+.descricao-meta {
+    color: #000000; /* Cor do texto */
+    margin: 0.5rem 0; /* Margem acima e abaixo */
+}
+
+/* Estiliza o rodapé da página */
+footer {
+    background: linear-gradient(#800080, #000000, #000000); /* Cor de fundo do rodapé */
+    color: #696969; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 1rem; /* Espaçamento interno */
+    width: 100%; /* Largura total da página */
+    position: relative; /* Posiciona o rodapé */
+    bottom: 0; /* Alinha ao fundo da página */
+    font-size: 1rem; /* Tamanho da fonte */
+}
+
+
+/* Estilo para a seção resultados-about */
+.resultados-about {
+    text-align: center; /* Centraliza o texto */
+    margin: 20px auto; /* Centraliza a seção */
+    padding: 20px; /* Adiciona padding */
+    max-width: 800px; /* Define uma largura máxima */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+  background: #FFFFFF; /* Cor de fundo */
+
+    border-radius: 0.6rem; /* Borda arredondada */
+
+    padding: 1rem; /* Espaçamento interno */
+
+    margin-bottom: 1rem; /* Espaçamento abaixo */
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+
+    width: 20rem; /* Largura máxima */
+
+    height: 33vh; /* Altura máxima */
+
+    ; /* Adiciona rolagem vertical se necessário */
+
+    margin-top: 1rem; /* Espaçamento acima */
+    overflow-y: auto;
+    border-style: ridge;
+
+    border-width: 5px;
+
+    border-color: #800080;
+    
+}
+
+/* Estilo para a descrição-about */
+.descricao-about {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #000000; /* Cor do texto */
+    font-family: 'Bodoni Moda', sans-serif;
+    
+}
+
+/* Estilo para links dentro da descrição-about */
+a {
+    text-decoration: ; /* Remove o sublinhado padrão dos links */
+    color: #800080; /* Cor do texto dos links */
+}
+
+.descricao-about a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+ 
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem; /* Ajusta o tamanho da fonte em telas menores */
+        letter-spacing: 0.2rem; /* Ajusta o espaçamento entre letras */
+    }
+
+    input {
+        width: 20rem; /* Largura dos inputs em telas menores */
+        padding: 0.8rem; /* Espaçamento interno */
+    }
+
+    .resultados-pesquisa {
+        width: 20rem; /* Ajusta a largura da caixa de resultados */
+    }
+}
+
+@media (max-width: 480px) {
+    .resultados-about {
+        padding: 10px; /* Reduz o padding em telas menores */
+        max-width: 100%; /* Usa toda a largura disponível */
+      height: 48vh;
+      width: 20rem;
+    }
+
+    .descricao-about {
+        font-size: 1rem; /* Ajusta o tamanho da fonte em telas menores */
+    }
+}
+
+
+/* Estiliza o rodapé da página */
+
+footer {
+
+    background: linear-gradient(#800080, #000000, #000000); /* Cor de fundo do rodapé */
+
+    color: #696969; /* Cor do texto */
+
+    text-align: center; /* Alinha o texto ao centro */
+
+    padding: 1rem; /* Espaçamento interno */
+
+    width: 100%; /* Largura total da página */
+
+    font-size: 1rem; /* Tamanho da fonte */
+
+    margin-top: auto; /* Pushes footer to the bottom of the page */
+
+}
+};
+
+@media (max-width: 1024px) {
+
+    .resultados-about {
+      text-align: center; /* Centraliza o texto */
+    margin: 20px auto; /* Centraliza a seção */
+    padding: 20px; /* Adiciona padding */
+    max-width: 800px; /* Define uma largura máxima */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+  background: #FFFFFF; /* Cor de fundo */
+
+    border-radius: 0.6rem; /* Borda arredondada */
+
+    padding: 1rem; /* Espaçamento interno */
+
+    margin-bottom: 1rem; /* Espaçamento abaixo */
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+
+    width: 70rem; /* Largura máxima */
+
+    height: 60vh; /* Altura máxima */
+
+    overflow-y: none; /* Adiciona rolagem vertical se necessário */
+
+    margin-top: 1rem; /* Espaçamento acima */
+      
+    
+      
+};

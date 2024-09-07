@@ -1,0 +1,723 @@
+<html>
+<head>
+ <title> Wimo </title>
+ <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <header>
+ <h1> Wimo </h1>
+    </header>
+  
+    <main>
+  <section>
+      <label for="Date"> Today date moon energy: </label>
+    
+      <input type="text" placeholder= "Sep DD YYYY" id="campo-pesquisa">
+            
+  <div>    
+  <button onclick="pesquisar() ">Search</button>
+  <button onclick="about()">About</button>
+     </div>
+    
+    <section class="resultados-pesquisa" 
+             id="resultados-pesquisa">
+      <!--- <div class="item-resultado">
+     <h2> Sep 01 2024 </h2>
+<p class="descrição-meta">
+<b>Waning Moon:</b>
+The Moon is decreasing in size, time for release, letting go, and banishing negativity.
+Clean the floor with rue tea.
+Fumigate the house with sage.
+Take off your shoes and walk on the earth.
+Write down everything you want to banish and burn it.
+</p>
+</div>
+      <div class="item-resultado">
+
+    <h2>Sep 02 2024</h2>
+
+    <p class="descrição-meta">
+
+     <b> New Moon:</b>
+
+      The Moon is not visible, time for new beginnings, setting intentions, and planting seeds.
+
+      Define or conclude new projects.
+
+      Do something manual.
+
+      Light candles and take a basil bath.
+
+      Drink a rosemary tea.
+
+    </p>
+
+  </div>
+
+  <div class="item-resultado">
+
+    <h2>Sep 03 2024</h2>
+
+    <p class="descrição-meta">
+
+      <b> New Moon:</b>
+
+      The Moon is not visible, time for new beginnings, setting intentions, and planting seeds.
+
+      Define or conclude new projects.
+
+      Do something manual.
+
+      Light candles and take a basil bath.
+
+      Drink a rosemary tea.
+
+    </p>
+
+  </div>
+
+  <div class="item-resultado">
+
+    <h2>Sep 04 2024</h2>
+
+    <p class="descrição-meta">
+
+      <b> New Moon:</b>
+
+      The Moon is not visible, time for new beginnings, setting intentions, and planting seeds.
+
+      Define or conclude new projects.
+
+      Do something manual.
+
+      Light candles and take a basil bath.
+
+      Drink a rosemary tea.
+
+    </p>
+
+  </div>
+
+  <div class="item-resultado">
+
+    <h2>Sep 05 2024</h2>
+
+    <p class="descrição-meta">
+
+      <b> New Moon:</b>
+
+      The Moon is not visible, time for new beginnings, setting intentions, and planting seeds.
+
+      Define or conclude new projects.
+
+      Do something manual.
+
+      Light candles and take a basil bath.
+
+      Drink a rosemary tea.
+
+    </p>
+
+  </div>
+
+  <div class="item-resultado">
+
+    <h2>Sep 06 2024</h2>
+
+    <p class="descrição-meta">
+
+      <b> New Moon:</b>
+
+      The Moon is not visible, time for new beginnings, setting intentions, and planting seeds.
+
+      Define or conclude new projects.
+
+      Do something manual.
+
+      Light candles and take a basil bath.
+
+      Drink a rosemary tea.
+
+    </p>
+
+  </div>
+
+  <div class="item-resultado">
+
+    <h2>Sep 07 2024</h2>
+
+    <p class="descrição-meta">
+
+      <b> New Moon:</b>
+
+      The Moon is not visible, time for new beginnings, setting intentions, and planting seeds.
+
+      Define or conclude new projects.
+
+      Do something manual.
+
+      Light candles and take a basil bath.
+
+      Drink a rosemary tea.
+
+    </p>
+
+  </div>
+
+  <div class="item-resultado">
+
+    <h2>Sep 08 2024</h2>
+
+    <p class="descrição-meta">
+
+      <b> New Moon:</b>
+
+      The Moon is not visible, time for new beginnings, setting intentions, and planting seeds.
+
+      Define or conclude new projects.
+
+      Do something manual.
+
+      Light candles and take a basil bath.
+
+      Drink a rosemary tea.
+
+    </p>
+
+  </div>
+
+  <div class="item-resultado">
+
+    <h2>Sep 09 2024</h2>
+
+    <p class="descrição-meta">
+
+      <b> New Moon:</b>
+
+      The Moon is not visible, time for new beginnings, setting intentions, and planting seeds.
+
+      Define or conclude new projects.
+
+      Do something manual.
+
+      Light candles and take a basil bath.
+
+      Drink a rosemary tea.
+
+    </p>
+
+  </div>
+
+  <div class="item-resultado">
+
+    <h2>Sep 10 2024</h2>
+
+    <p class="descrição-meta">
+
+      <b> New Moon:</b>
+
+      The Moon is not visible, time for new beginnings, setting intentions, and planting seeds.
+
+      Define or conclude new projects.
+
+      Do something manual.
+
+      Light candles and take a basil bath.
+
+      Drink a rosemary tea.
+
+    </p>
+
+  </div>
+
+  <div class="item-resultado">
+
+    <h2>Sep 11 2024</h2>
+
+    <p class="descrição-meta">
+
+      <b> Crescent Moon: </b>
+
+      The Moon is growing, time of new beginnings, growth, and setting intentions.
+
+      Practices
+
+      Manifest your intentions.
+
+      Fumigate the house with rosemary.
+
+      Connect with nature.
+
+      Light candles and take a relaxing bath.
+
+    </p>
+
+  </div>
+
+  <div class="item-resultado">
+
+    <h2>Sep 12 2024</h2>
+
+    <p class="descrição-meta">
+
+      <b> Crescent Moon: </b>
+
+      The Moon is growing, time of new beginnings, growth, and setting intentions.
+
+      Practices
+
+      Manifest your intentions.
+
+      Fumigate the house with rosemary.
+
+      Connect with nature.
+
+      Light candles and take a relaxing bath.
+
+    </p>
+
+  </div>
+
+  <div class="item-resultado">
+
+    <h2>Sep 13 2024</h2>
+
+    <p class="descrição-meta">
+
+      <b> Crescent Moon: </b>
+
+      The Moon is growing, time of new beginnings, growth, and setting intentions.
+
+      Practices
+
+      Manifest your intentions.
+
+      Fumigate the house with rosemary.
+
+      Connect with nature.
+
+      Light candles and take a relaxing bath.
+
+    </p>
+
+  </div>
+
+  <div class="item-resultado">
+
+    <h2>Sep 14 2024</h2>
+
+    <p class="descrição-meta">
+
+      <b> Crescent Moon: </b>
+
+      The Moon is growing, time of new beginnings, growth, and setting intentions.
+
+      Practices
+
+      Manifest your intentions.
+
+      Fumigate the house with rosemary.
+
+      Connect with nature.
+
+      Light candles and take a relaxing bath.
+
+    </p>
+
+  </div>
+
+  <div class="item-resultado">
+
+    <h2>Sep 15 2024</h2>
+
+    <p class="descrição-meta">
+
+      <b> Crescent Moon: </b>
+
+      The Moon is growing, time of new beginnings, growth, and setting intentions.
+
+      Practices
+
+      Manifest your intentions.
+
+      Fumigate the house with rosemary.
+
+      Connect with nature.
+
+      Light candles and take a relaxing bath.
+
+    </p>
+
+  </div>
+
+  <div class="item-resultado">
+
+    <h2>Sep 16 2024</h2>
+
+    <p class="descrição-meta">
+
+      <b> Crescent Moon: </b>
+
+      The Moon is growing, time of new beginnings, growth, and setting intentions.
+
+      Practices
+
+      Manifest your intentions.
+
+      Fumigate the house with rosemary.
+
+      Connect with nature.
+
+      Light candles and take a relaxing bath.
+
+    </p>
+
+  </div>
+
+  <div class="item-resultado">
+
+    <h2>Sep 17 2024</h2>
+
+    <p class="descrição-meta">
+
+     <b> Full Moon:</b>
+
+      The Moon is at its fullest, time of peak energy, manifestation, and abundance.
+
+      Consult the tarot.
+
+      Make moon water.
+
+      Energize your crystals overnight.
+
+      Make potions or rituals for love.
+
+    </p>
+
+  </div>
+
+  <div class="item-resultado">
+
+    <h2>Sep 18 2024</h2>
+
+    <p class="descrição-meta">
+
+      <b> Full Moon:</b>
+
+      The Moon is at its fullest, time of peak energy, manifestation, and abundance.
+
+      Consult the tarot.
+
+      Make moon water.
+
+      Energize your crystals overnight.
+
+      Make potions or rituals for love.
+
+    </p>
+
+  </div>
+
+  <div class="item-resultado">
+
+    <h2>Sep 19 2024</h2>
+
+    <p class="descrição-meta">
+
+      <b> Full Moon:</b>
+
+      The Moon is at its fullest, time of peak energy, manifestation, and abundance.
+
+      Consult the tarot.
+
+      Make moon water.
+
+      Energize your crystals overnight.
+
+      Make potions or rituals for love.
+
+    </p>
+
+  </div>
+      <div class="item-resultado">
+
+    <h2>Sep 20 2024</h2>
+
+    <p class="descrição-meta">
+
+      <b> Full Moon:</b>
+
+      The Moon is at its fullest, time of peak energy, manifestation, and abundance.
+
+      Consult the tarot.
+
+      Make moon water.
+
+      Energize your crystals overnight.
+
+      Make potions or rituals for love.
+
+    </p>
+
+  </div>
+
+  <div class="item-resultado">
+
+    <h2>Sep 21 2024</h2>
+
+    <p class="descrição-meta">
+
+      <b> Full Moon:</b>
+
+      The Moon is at its fullest, time of peak energy, manifestation, and abundance.
+
+      Consult the tarot.
+
+      Make moon water.
+
+      Energize your crystals overnight.
+
+      Make potions or rituals for love.
+
+    </p>
+
+  </div>
+
+  <div class="item-resultado">
+
+    <h2>Sep 22 2024</h2>
+
+    <p class="descrição-meta">
+
+      <b> Full Moon:</b>
+
+      The Moon is at its fullest, time of peak energy, manifestation, and abundance.
+
+      Consult the tarot.
+
+      Make moon water.
+
+      Energize your crystals overnight.
+
+      Make potions or rituals for love.
+
+    </p>
+
+  </div>
+
+  <div class="item-resultado">
+
+    <h2>Sep 23 2024</h2>
+
+    <p class="descrição-meta">
+
+      <b> Full Moon:</b>
+
+      The Moon is at its fullest, time of peak energy, manifestation, and abundance.
+
+      Consult the tarot.
+
+      Make moon water.
+
+      Energize your crystals overnight.
+
+      Make potions or rituals for love.
+
+    </p>
+
+  </div>
+
+  <div class="item-resultado">
+
+    <h2>Sep 24 2024</h2>
+
+    <p class="descrição-meta">
+
+      <b>Waning Moon:</b>
+
+      The Moon is decreasing in size, time for release, letting go, and banishing negativity.
+
+      Clean the floor with rue tea.
+
+      Fumigate the house with sage.
+
+      Take off your shoes and walk on the earth.
+
+      Write down everything you want to banish and burn it.
+
+    </p>
+
+  </div>
+
+  <div class="item-resultado">
+
+    <h2>Sep 25 2024</h2>
+
+    <p class="descrição-meta">
+
+      <b>Waning Moon:</b>
+
+      The Moon is decreasing in size, time for release, letting go, and banishing negativity.
+
+      Clean the floor with rue tea.
+
+      Fumigate the house with sage.
+
+      Take off your shoes and walk on the earth.
+
+      Write down everything you want to banish and burn it.
+
+    </p>
+
+  </div>
+
+  <div class="item-resultado">
+
+    <h2>Sep 26 2024</h2>
+
+    <p class="descrição-meta">
+
+      <b>Waning Moon:</b>
+
+      The Moon is decreasing in size, time for release, letting go, and banishing negativity.
+
+      Clean the floor with rue tea.
+
+      Fumigate the house with sage.
+
+      Take off your shoes and walk on the earth.
+
+      Write down everything you want to banish and burn it.
+
+    </p>
+
+  </div>
+
+  <div class="item-resultado">
+
+    <h2>Sep 27 2024</h2>
+
+    <p class="descrição-meta">
+
+      <b>Waning Moon:</b>
+
+      The Moon is decreasing in size, time for release, letting go, and banishing negativity.
+
+      Clean the floor with rue tea.
+
+      Fumigate the house with sage.
+
+      Take off your shoes and walk on the earth.
+
+      Write down everything you want to banish and burn it.
+
+    </p>
+
+  </div>
+
+  <div class="item-resultado">
+
+    <h2>Sep 28 2024</h2>
+
+    <p class="descrição-meta">
+
+      <b>Waning Moon:</b>
+
+      The Moon is decreasing in size, time for release, letting go, and banishing negativity.
+
+      Clean the floor with rue tea.
+
+      Fumigate the house with sage.
+
+      Take off your shoes and walk on the earth.
+
+      Write down everything you want to banish and burn it.
+
+    </p>
+
+  </div>
+
+  <div class="item-resultado">
+
+    <h2>Sep 29 2024</h2>
+
+    <p class="descrição-meta">
+
+      <b>Waning Moon:</b>
+
+      The Moon is decreasing in size, time for release, letting go, and banishing negativity.
+
+      Clean the floor with rue tea.
+
+      Fumigate the house with sage.
+
+      Take off your shoes and walk on the earth.
+
+      Write down everything you want to banish and burn it.
+
+    </p>
+
+  </div>
+
+  <div class="item-resultado">
+
+    <h2>Sep 30 2024</h2>
+
+    <p class="descrição-meta">
+
+      
+      <b>Waning Moon </b>
+
+      The Moon is decreasing in size, time for release, letting go, and banishing negativity.
+
+      Clean the floor with rue tea.
+
+      Fumigate the house with sage.
+
+      Take off your shoes and walk on the earth.
+
+      Write down everything you want to banish and burn it.
+
+    </p>
+</section>
+
+  </div> --->
+
+      </section>
+
+    
+    <section class="resultados-about" id="resultados-about">
+
+    <!--  <div class="resultados-about">
+
+        <h3>Hello, Witch!</h3>
+
+        <p class="descrição-about">Wimo stands for Witch Moon or/and Witch Mood. The website was created to guide you about the moon energies.</p>
+
+        <p class="descrição-about">Here are some witch recommendations:</p>
+
+        <p class="descrição-about"><a href="https://youtu.be/bl53QRq2kTM?si=sNVITuS8pkhJWk3_" target="_blank">Witch Playlist</a></p>
+
+        <p class="descrição-about"><a href="https://pin.it/2OMvT9WON" target="_blank">Pinterest Deck</a></p>
+
+        <p class="descrição-about">From a Witch to another, stay magical!</p>
+
+      </div> --->
+
+    </section>
+
+  </main>
+
+  <footer>
+
+    <p>2024. All rights reserved. Wimo. Contact: webwimo@gmail.com</p>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
